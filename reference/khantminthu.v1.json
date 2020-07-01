@@ -1,16 +1,100 @@
 {
-  "openapi": "3.0.0",
-  "info": {
-    "title": "khantminthu",
-    "version": "1.0"
-  },
-  "servers": [
+  "status": 1,
+  "message": "操作成功",
+  "data": [
     {
-      "url": "http://localhost:3000"
+      "id": "1",
+      "user_id": "401",
+      "type": "1",
+      "isFollow": 0,
+      "user_name": "admin",
+      "nick_name": "khantminthu",
+      "user_header": "/Uploads/header/2019-11-07/5dc3b697eb896.png",
+      "Upload": {
+        "id": "1",
+        "user_id": "401",
+        "detail": "Hello This is my lovely pet",
+        "link": "www.youtube.com",
+        "isLike": 1,
+        "like": 1,
+        "comment": 4,
+        "view": 5
+      }
+    },
+    {
+      "id": "2",
+      "user_id": "1",
+      "type": "0",
+      "isFollow": 1,
+      "user_name": "firefly",
+      "nick_name": "13",
+      "user_header": "",
+      "Upload": {
+        "id": "2",
+        "user_id": "1",
+        "detail": "hi , ko ko khant",
+        "isLike": 1,
+        "like": 5,
+        "comment": 3,
+        "view": 4,
+        "photo": [
+          "/Uploads/goods/2019-08-16/5d5654bf3ff08.jpg",
+          "/Uploads/goods/2019-08-16/5d5654bfa4fce.jpg",
+          "/Uploads/goods/2019-08-16/5d5660da331f2.jpg"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "user_id": "8",
+      "type": "1",
+      "isFollow": 0,
+      "user_name": "qwe123",
+      "nick_name": "",
+      "user_header": "/Uploads/header/2019-11-13/5dcbc43342d40.jpg",
+      "Upload": {
+        "id": "3",
+        "user_id": "8",
+        "detail": "hi , may thandar kyaw",
+        "link": "www.facebook.com",
+        "isLike": 1,
+        "like": 3,
+        "comment": 1,
+        "view": 5
+      }
+    },
+    {
+      "id": "4",
+      "user_id": "1",
+      "type": "0",
+      "isFollow": 1,
+      "user_name": "firefly",
+      "nick_name": "13",
+      "user_header": "",
+      "Upload": {
+        "id": "4",
+        "user_id": "1",
+        "detail": "hello",
+        "isLike": 0,
+        "like": 7,
+        "comment": 4,
+        "view": 1,
+        "photo": [
+          "/Uploads/goods/2019-08-17/5d5793df60611.jpg",
+          "/Uploads/goods/2019-08-17/5d5793df6be79.jpg",
+          "/Uploads/goods/2019-08-17/thumb_5d5795db00a97.jpg"
+        ]
+      }
     }
   ],
-  "paths": {},
-  "components": {
-    "schemas": {}
+  "paths": {
+    "/id=1": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "get-id=1"
+      }
+    }
   }
 }
