@@ -1,0 +1,27 @@
+// 20200701142759
+// http://app.pet.cn.net/index.php/Upload/getAllUser
+
+{
+  "status": 1,
+  "message": "操作成功",
+  "data": [
+    {
+      "id": "401",
+      "user_name": "admin",
+      "nick_name": "khantminthu",
+      "user_header": "/Uploads/header/2019-11-07/5dc3b697eb896.png"
+    },
+    {
+      "id": "319",
+      "user_name": "haoer353",
+      "nick_name": "芽儿哦",
+      "user_header": "/Uploads/header/2019-11-13/5dcbc43342d40.jpg"
+    },
+    {
+      "id": "315",
+      "user_name": "czz3431350",
+      "nick_name": null,
+      "user_header": "/Uploads/header/2020-11-3/hello.jpg"
+    }
+  ]
+}
